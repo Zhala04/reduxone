@@ -1,0 +1,81 @@
+.login-b{
+    width: 100%;
+    height: 475px;
+    margin-top: 0;
+    padding-top: 0;
+    background-image: url('https://themesbrand.com/velzon/html/default/assets/images/auth-one-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    clip-path: circle(69.8% at 50% 0);
+    position: relative;
+}
+.login-bg{
+    width: 100%;
+    height: 475px;
+    background-color: rgba( 92,107,155, .8);
+    
+  
+}
+.l-con{
+    position: absolute;
+    top: 260px;
+    left: 33%;
+    width: 500px;
+    height: 350px;
+    padding-top: 30px;
+    background-color: #F3F3F9;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+
+}
+.l-con::after{
+    content: 'Don\'t have an account ? Signup';
+    position: absolute;
+    bottom: -70px;
+    left: 27%;
+}
+
+#snow-top-layer {
+	will-change: transform;
+	transform: translateY(-768px);
+	animation: fall 22.5s infinite linear;
+}
+
+#snow-bottom-layer {
+	will-change: transform;
+	transform: translateY(-768px);
+	animation: fall 45s infinite linear;
+}
+
+@keyframes fall {
+	
+	100% {
+		transform: translateY(0);
+	}
+	
+}
+
+
+.sidebar{
+    width: 200px;
+    height: 100vh;
+    padding-top: 100px;
+    /* border: 1px solid black; */
+    background-color: #F6F6F6;
+    position: absolute;
+    left: 10px;
+    margin-right: 100px;
+    z-index: 2;
+}
+.row{
+    /* width: 90%;
+    height: auto; */
+    margin-left: 100px;
+}
+
+.sidelinks{
+    text-decoration: none;
+    color: #00B1B7;
+    margin-top: 10px;
+}
